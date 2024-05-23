@@ -31,11 +31,6 @@ dependencies:
   cupertino_icons: ^1.0.6
   openvpn_flutter: ^1.2.2
   network_info_plus: ^5.0.3
-  bloc: ^8.1.4
-  flutter_bloc: ^8.1.5
-  equatable: ^2.0.5
-  video_player: ^2.8.6
-  image_picker: ^1.1.0
 
 dev_dependencies:
   flutter_test:
