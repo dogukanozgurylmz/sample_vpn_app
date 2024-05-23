@@ -4,11 +4,12 @@
 <dict>
 	<key>com.apple.developer.networking.networkextension</key>
 	<array>
+		<string>app-proxy-provider</string>
 		<string>packet-tunnel-provider</string>
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.example.sampleVpnApp</string>
+		<string>group.com.dogukan.sampleVpnApp</string>
 	</array>
 </dict>
 </plist>

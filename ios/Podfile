@@ -31,10 +31,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
   
-  target 'VPNExtension' do
-    use_frameworks!
-    pod 'OpenVPNAdapter', :git => 'https://github.com/ss-abramchuk/OpenVPNAdapter.git', :tag => '0.8.0'
-  end
+  
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   target 'RunnerTests' do
@@ -46,4 +43,9 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
   end
+end
+
+target 'VPNExtension' do
+  use_frameworks!
+  pod 'OpenVPNAdapter', :git => 'https://github.com/ss-abramchuk/OpenVPNAdapter.git', :tag => '0.8.0'
 end
