@@ -5,6 +5,7 @@ import 'package:sample_vpn_app/app/home_view.dart';
 
 void main() {
   runApp(const MyApp());
+  print("fssdf");
 }
 
 class MyApp extends StatelessWidget {
